@@ -40,7 +40,7 @@ elif answer == 'n':
         else:
             url_list.append(url)
 
-print('Download in progress.')
+print('Download is in progress.')
 
 for i in tqdm(range(0, len(url_list))):
     video = YouTube(url_list[i])
