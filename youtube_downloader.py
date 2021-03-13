@@ -60,3 +60,7 @@ for i in tqdm(range(0, len(url_list))):
     output = video.streams.get_by_itag(best_abr_itag).download(current_path + '\\' + 'Downloads')
    
     os.rename(output, output.replace('.webm', '.mp3'))
+
+
+print('Download finished.')
+input('Press enter to exit')
