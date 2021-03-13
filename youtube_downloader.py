@@ -3,6 +3,12 @@ from tqdm import tqdm
 import os
 import subprocess
 
+# add option to choose highest or lowest quality
+# fill metadata
+# add option to download youtube playlist?
+# try if entered url is correct
+# add option for video download
+
 print('Welcome to YouTube mp3 downloader.')
 print('Do you want to enter urls from text (.txt) file? (One url per line) - y/n ?')
 
